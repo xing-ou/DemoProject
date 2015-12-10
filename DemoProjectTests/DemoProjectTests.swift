@@ -33,4 +33,9 @@ class DemoProjectTests: XCTestCase {
         }
     }
     
+    func testAdd(){
+    
+        XCTAssert(100 == 100, "ok")
+    }
+    
 }
